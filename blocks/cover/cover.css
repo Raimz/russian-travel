@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
   margin-top: 66px;
   max-width: 100%;
   min-height: 200px;
@@ -29,6 +29,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover {
+    width: calc(100% - 48px * 2);
     min-height: 740px;
     margin: 0 auto;
     margin-top: 92px;
