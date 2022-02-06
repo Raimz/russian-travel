@@ -1,4 +1,6 @@
 .place__image {
+  margin: 0;
+  padding: 0;
   grid-area: image;
   max-width: 100%;
 }

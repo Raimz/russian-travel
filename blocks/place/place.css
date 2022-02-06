@@ -1,14 +1,14 @@
 .place {
   display: grid;
+  margin: 0;
   grid-template-columns: 100%;
   grid-template-rows: repeat(auto-fit, minmax(mincontent, maxcontent));
   grid-template-areas:
     "title"
     "website"
     "image"
-    "paragraph"
-    "buy";
-  gap: 30px 0;
+    "paragraph";
+  gap: 32px 0;
   justify-items: center;
   margin-bottom: 50px;
 }
@@ -22,7 +22,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
       "title website"
-      "image paragraph"
       "image paragraph";
     gap: 48px 28px;
     margin-bottom: 73px;
@@ -31,7 +30,13 @@
 
 @media screen and (min-width: 1024px) {
   .place {
-    gap: 48px 40px;
+    gap: 48px 32px;
     margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    gap: 48px 40px;
   }
 }
