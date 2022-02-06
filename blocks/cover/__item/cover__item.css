@@ -5,13 +5,13 @@
   justify-content: center;
   width: 100%;
   min-height: 200px;
-  background: rgba(#2A2C2F, 0.3);
+  background: #2a2c2f4d;
   text-decoration: none;
   color: #fff;
 }
 
 .cover__item:hover {
-  background: rgba(#2A2C2F, 0.8);
+  background: #2a2c2fcc;
 }
 
 @media screen and (min-width: 768px) {
