@@ -23,7 +23,7 @@
     grid-template-areas:
       "title website"
       "image paragraph";
-    gap: 40px 28px;
+    gap: 48px 28px;
     margin-bottom: 73px;
   }
 }
